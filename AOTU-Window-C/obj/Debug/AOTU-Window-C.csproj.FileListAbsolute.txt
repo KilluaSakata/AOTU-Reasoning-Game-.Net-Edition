@@ -1,0 +1,12 @@
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\bin\Debug\AOTU-Window-C.exe.config
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\bin\Debug\AOTU-Window-C.exe
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\bin\Debug\AOTU-Window-C.pdb
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU-Window-C.csprojAssemblyReference.cache
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU_Window_C.Form1.resources
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU_Window_C.Properties.Resources.resources
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU-Window-C.csproj.GenerateResource.cache
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU-Window-C.csproj.CoreCompileInputs.cache
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU-Window-C.exe
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\obj\Debug\AOTU-Window-C.pdb
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\bin\Debug\Answer.txt
+D:\Source\Repos\AOTU-Window-C\AOTU-Window-C\bin\Debug\Updates For Alpha.txt
