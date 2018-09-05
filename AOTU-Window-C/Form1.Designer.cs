@@ -51,6 +51,7 @@
             this.关于ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.关于AOTU推理游戏ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.更新日志ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.关于CBranchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Label6 = new System.Windows.Forms.Label();
             this.RichTextBox1 = new System.Windows.Forms.RichTextBox();
             this.GroupBox2 = new System.Windows.Forms.GroupBox();
@@ -73,10 +74,11 @@
             this.Label5 = new System.Windows.Forms.Label();
             this.Label1 = new System.Windows.Forms.Label();
             this.Button13 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.Button12 = new System.Windows.Forms.Button();
-            this.关于CBranchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
             this.GroupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.GroupBox2.SuspendLayout();
@@ -106,18 +108,18 @@
             this.GroupBox1.Controls.Add(this.Button2);
             this.GroupBox1.Controls.Add(this.Button1);
             this.GroupBox1.Location = new System.Drawing.Point(11, 71);
-            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox1.Name = "GroupBox1";
-            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.GroupBox1.Size = new System.Drawing.Size(307, 364);
+            this.GroupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.GroupBox1.Size = new System.Drawing.Size(307, 500);
             this.GroupBox1.TabIndex = 41;
             this.GroupBox1.TabStop = false;
             this.GroupBox1.Text = "章节";
             // 
             // Button11
             // 
-            this.Button11.Location = new System.Drawing.Point(8, 301);
-            this.Button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button11.Location = new System.Drawing.Point(8, 435);
+            this.Button11.Margin = new System.Windows.Forms.Padding(4);
             this.Button11.Name = "Button11";
             this.Button11.Size = new System.Drawing.Size(291, 48);
             this.Button11.TabIndex = 45;
@@ -127,8 +129,8 @@
             // 
             // Button10
             // 
-            this.Button10.Location = new System.Drawing.Point(168, 246);
-            this.Button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button10.Location = new System.Drawing.Point(168, 360);
+            this.Button10.Margin = new System.Windows.Forms.Padding(4);
             this.Button10.Name = "Button10";
             this.Button10.Size = new System.Drawing.Size(131, 48);
             this.Button10.TabIndex = 44;
@@ -138,8 +140,8 @@
             // 
             // Button9
             // 
-            this.Button9.Location = new System.Drawing.Point(8, 246);
-            this.Button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button9.Location = new System.Drawing.Point(7, 360);
+            this.Button9.Margin = new System.Windows.Forms.Padding(4);
             this.Button9.Name = "Button9";
             this.Button9.Size = new System.Drawing.Size(131, 48);
             this.Button9.TabIndex = 44;
@@ -149,8 +151,8 @@
             // 
             // Button8
             // 
-            this.Button8.Location = new System.Drawing.Point(168, 191);
-            this.Button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button8.Location = new System.Drawing.Point(168, 276);
+            this.Button8.Margin = new System.Windows.Forms.Padding(4);
             this.Button8.Name = "Button8";
             this.Button8.Size = new System.Drawing.Size(131, 48);
             this.Button8.TabIndex = 44;
@@ -160,8 +162,8 @@
             // 
             // Button7
             // 
-            this.Button7.Location = new System.Drawing.Point(8, 191);
-            this.Button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button7.Location = new System.Drawing.Point(7, 276);
+            this.Button7.Margin = new System.Windows.Forms.Padding(4);
             this.Button7.Name = "Button7";
             this.Button7.Size = new System.Drawing.Size(131, 48);
             this.Button7.TabIndex = 44;
@@ -171,8 +173,8 @@
             // 
             // Button6
             // 
-            this.Button6.Location = new System.Drawing.Point(168, 136);
-            this.Button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button6.Location = new System.Drawing.Point(168, 193);
+            this.Button6.Margin = new System.Windows.Forms.Padding(4);
             this.Button6.Name = "Button6";
             this.Button6.Size = new System.Drawing.Size(131, 48);
             this.Button6.TabIndex = 44;
@@ -182,8 +184,8 @@
             // 
             // Button5
             // 
-            this.Button5.Location = new System.Drawing.Point(8, 136);
-            this.Button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button5.Location = new System.Drawing.Point(8, 193);
+            this.Button5.Margin = new System.Windows.Forms.Padding(4);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(131, 48);
             this.Button5.TabIndex = 44;
@@ -193,8 +195,8 @@
             // 
             // Button4
             // 
-            this.Button4.Location = new System.Drawing.Point(168, 80);
-            this.Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button4.Location = new System.Drawing.Point(168, 110);
+            this.Button4.Margin = new System.Windows.Forms.Padding(4);
             this.Button4.Name = "Button4";
             this.Button4.Size = new System.Drawing.Size(131, 49);
             this.Button4.TabIndex = 42;
@@ -204,8 +206,8 @@
             // 
             // Button3
             // 
-            this.Button3.Location = new System.Drawing.Point(8, 80);
-            this.Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button3.Location = new System.Drawing.Point(8, 110);
+            this.Button3.Margin = new System.Windows.Forms.Padding(4);
             this.Button3.Name = "Button3";
             this.Button3.Size = new System.Drawing.Size(131, 49);
             this.Button3.TabIndex = 42;
@@ -216,7 +218,7 @@
             // Button2
             // 
             this.Button2.Location = new System.Drawing.Point(168, 24);
-            this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(131, 49);
             this.Button2.TabIndex = 42;
@@ -227,7 +229,7 @@
             // Button1
             // 
             this.Button1.Location = new System.Drawing.Point(8, 25);
-            this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(131, 48);
             this.Button1.TabIndex = 42;
@@ -251,7 +253,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(867, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1144, 28);
             this.menuStrip1.TabIndex = 43;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -274,7 +276,7 @@
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(129, 26);
             this.退出ToolStripMenuItem.Text = "退出";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
@@ -309,6 +311,13 @@
             this.更新日志ToolStripMenuItem.Text = "更新日志";
             this.更新日志ToolStripMenuItem.Click += new System.EventHandler(this.更新日志ToolStripMenuItem_Click);
             // 
+            // 关于CBranchToolStripMenuItem
+            // 
+            this.关于CBranchToolStripMenuItem.Name = "关于CBranchToolStripMenuItem";
+            this.关于CBranchToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
+            this.关于CBranchToolStripMenuItem.Text = "关于 C# Branch";
+            this.关于CBranchToolStripMenuItem.Click += new System.EventHandler(this.关于CBranchToolStripMenuItem_Click);
+            // 
             // Label6
             // 
             this.Label6.AutoSize = true;
@@ -322,11 +331,11 @@
             // RichTextBox1
             // 
             this.RichTextBox1.Location = new System.Drawing.Point(341, 62);
-            this.RichTextBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RichTextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.RichTextBox1.Name = "RichTextBox1";
-            this.RichTextBox1.Size = new System.Drawing.Size(508, 372);
+            this.RichTextBox1.Size = new System.Drawing.Size(508, 509);
             this.RichTextBox1.TabIndex = 45;
-            this.RichTextBox1.Text = "                           ";
+            this.RichTextBox1.Text = "请在这里输入您寻找到的线索来备忘。";
             // 
             // GroupBox2
             // 
@@ -346,11 +355,11 @@
             this.GroupBox2.Controls.Add(this.CheckBox3);
             this.GroupBox2.Controls.Add(this.CheckBox5);
             this.GroupBox2.Controls.Add(this.CheckBox4);
-            this.GroupBox2.Location = new System.Drawing.Point(19, 481);
-            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GroupBox2.Location = new System.Drawing.Point(857, 95);
+            this.GroupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.GroupBox2.Name = "GroupBox2";
-            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.GroupBox2.Size = new System.Drawing.Size(835, 79);
+            this.GroupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.GroupBox2.Size = new System.Drawing.Size(270, 183);
             this.GroupBox2.TabIndex = 46;
             this.GroupBox2.TabStop = false;
             this.GroupBox2.Text = "嫌疑人";
@@ -359,183 +368,199 @@
             // 
             this.CheckBox13.AutoSize = true;
             this.CheckBox13.Location = new System.Drawing.Point(8, 49);
-            this.CheckBox13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox13.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox13.Name = "CheckBox13";
             this.CheckBox13.Size = new System.Drawing.Size(74, 19);
             this.CheckBox13.TabIndex = 33;
             this.CheckBox13.Text = "丹尼尔";
             this.CheckBox13.UseVisualStyleBackColor = true;
+            this.CheckBox13.CheckedChanged += new System.EventHandler(this.CheckBox13_CheckedChanged);
             // 
             // CheckBox1
             // 
             this.CheckBox1.AutoSize = true;
             this.CheckBox1.Location = new System.Drawing.Point(8, 21);
-            this.CheckBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox1.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox1.Name = "CheckBox1";
             this.CheckBox1.Size = new System.Drawing.Size(59, 19);
             this.CheckBox1.TabIndex = 17;
             this.CheckBox1.Text = "雷狮";
             this.CheckBox1.UseVisualStyleBackColor = true;
+            this.CheckBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 
             // CheckBox10
             // 
             this.CheckBox10.AutoSize = true;
-            this.CheckBox10.Location = new System.Drawing.Point(137, 49);
-            this.CheckBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox10.Location = new System.Drawing.Point(95, 48);
+            this.CheckBox10.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox10.Name = "CheckBox10";
             this.CheckBox10.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.CheckBox10.Size = new System.Drawing.Size(89, 19);
             this.CheckBox10.TabIndex = 26;
             this.CheckBox10.Text = "嘉德罗斯";
             this.CheckBox10.UseVisualStyleBackColor = true;
+            this.CheckBox10.CheckedChanged += new System.EventHandler(this.CheckBox10_CheckedChanged);
             // 
             // CheckBox16
             // 
             this.CheckBox16.AutoSize = true;
-            this.CheckBox16.Location = new System.Drawing.Point(739, 21);
-            this.CheckBox16.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox16.Location = new System.Drawing.Point(8, 157);
+            this.CheckBox16.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox16.Name = "CheckBox16";
             this.CheckBox16.Size = new System.Drawing.Size(44, 19);
             this.CheckBox16.TabIndex = 36;
             this.CheckBox16.Text = "秋";
             this.CheckBox16.UseVisualStyleBackColor = true;
+            this.CheckBox16.CheckedChanged += new System.EventHandler(this.CheckBox16_CheckedChanged);
             // 
             // CheckBox11
             // 
             this.CheckBox11.AutoSize = true;
-            this.CheckBox11.Location = new System.Drawing.Point(305, 49);
-            this.CheckBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox11.Location = new System.Drawing.Point(194, 48);
+            this.CheckBox11.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox11.Name = "CheckBox11";
             this.CheckBox11.Size = new System.Drawing.Size(59, 19);
             this.CheckBox11.TabIndex = 27;
             this.CheckBox11.Text = "银爵";
             this.CheckBox11.UseVisualStyleBackColor = true;
+            this.CheckBox11.CheckedChanged += new System.EventHandler(this.CheckBox11_CheckedChanged);
             // 
             // CheckBox15
             // 
             this.CheckBox15.AutoSize = true;
-            this.CheckBox15.Location = new System.Drawing.Point(595, 49);
-            this.CheckBox15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox15.Location = new System.Drawing.Point(8, 103);
+            this.CheckBox15.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox15.Name = "CheckBox15";
             this.CheckBox15.Size = new System.Drawing.Size(59, 19);
             this.CheckBox15.TabIndex = 35;
             this.CheckBox15.Text = "祖玛";
             this.CheckBox15.UseVisualStyleBackColor = true;
+            this.CheckBox15.CheckedChanged += new System.EventHandler(this.CheckBox15_CheckedChanged);
             // 
             // CheckBox9
             // 
             this.CheckBox9.AutoSize = true;
-            this.CheckBox9.Location = new System.Drawing.Point(640, 21);
-            this.CheckBox9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox9.Location = new System.Drawing.Point(8, 130);
+            this.CheckBox9.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox9.Name = "CheckBox9";
             this.CheckBox9.Size = new System.Drawing.Size(74, 19);
             this.CheckBox9.TabIndex = 25;
             this.CheckBox9.Text = "帕洛斯";
             this.CheckBox9.UseVisualStyleBackColor = true;
+            this.CheckBox9.CheckedChanged += new System.EventHandler(this.CheckBox9_CheckedChanged);
             // 
             // CheckBox12
             // 
             this.CheckBox12.AutoSize = true;
-            this.CheckBox12.Location = new System.Drawing.Point(739, 49);
-            this.CheckBox12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox12.Location = new System.Drawing.Point(95, 130);
+            this.CheckBox12.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox12.Name = "CheckBox12";
             this.CheckBox12.Size = new System.Drawing.Size(59, 19);
             this.CheckBox12.TabIndex = 28;
             this.CheckBox12.Text = "佩利";
             this.CheckBox12.UseVisualStyleBackColor = true;
+            this.CheckBox12.CheckedChanged += new System.EventHandler(this.CheckBox12_CheckedChanged);
             // 
             // CheckBox8
             // 
             this.CheckBox8.AutoSize = true;
-            this.CheckBox8.Location = new System.Drawing.Point(560, 21);
-            this.CheckBox8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox8.Location = new System.Drawing.Point(194, 129);
+            this.CheckBox8.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox8.Name = "CheckBox8";
             this.CheckBox8.Size = new System.Drawing.Size(59, 19);
             this.CheckBox8.TabIndex = 24;
             this.CheckBox8.Text = "埃米";
             this.CheckBox8.UseVisualStyleBackColor = true;
+            this.CheckBox8.CheckedChanged += new System.EventHandler(this.CheckBox8_CheckedChanged);
             // 
             // CheckBox14
             // 
             this.CheckBox14.AutoSize = true;
-            this.CheckBox14.Location = new System.Drawing.Point(449, 49);
-            this.CheckBox14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox14.Location = new System.Drawing.Point(95, 75);
+            this.CheckBox14.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox14.Name = "CheckBox14";
             this.CheckBox14.Size = new System.Drawing.Size(59, 19);
             this.CheckBox14.TabIndex = 34;
             this.CheckBox14.Text = "雷德";
             this.CheckBox14.UseVisualStyleBackColor = true;
+            this.CheckBox14.CheckedChanged += new System.EventHandler(this.CheckBox14_CheckedChanged);
             // 
             // CheckBox7
             // 
             this.CheckBox7.AutoSize = true;
-            this.CheckBox7.Location = new System.Drawing.Point(480, 21);
-            this.CheckBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox7.Location = new System.Drawing.Point(194, 102);
+            this.CheckBox7.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox7.Name = "CheckBox7";
             this.CheckBox7.Size = new System.Drawing.Size(59, 19);
             this.CheckBox7.TabIndex = 23;
             this.CheckBox7.Text = "艾比";
             this.CheckBox7.UseVisualStyleBackColor = true;
+            this.CheckBox7.CheckedChanged += new System.EventHandler(this.CheckBox7_CheckedChanged);
             // 
             // CheckBox2
             // 
             this.CheckBox2.AutoSize = true;
-            this.CheckBox2.Location = new System.Drawing.Point(80, 21);
-            this.CheckBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox2.Location = new System.Drawing.Point(95, 21);
+            this.CheckBox2.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox2.Name = "CheckBox2";
             this.CheckBox2.Size = new System.Drawing.Size(74, 19);
             this.CheckBox2.TabIndex = 18;
             this.CheckBox2.Text = "安迷修";
             this.CheckBox2.UseVisualStyleBackColor = true;
+            this.CheckBox2.CheckedChanged += new System.EventHandler(this.CheckBox2_CheckedChanged);
             // 
             // CheckBox6
             // 
             this.CheckBox6.AutoSize = true;
-            this.CheckBox6.Location = new System.Drawing.Point(400, 21);
-            this.CheckBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox6.Location = new System.Drawing.Point(95, 103);
+            this.CheckBox6.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox6.Name = "CheckBox6";
             this.CheckBox6.Size = new System.Drawing.Size(59, 19);
             this.CheckBox6.TabIndex = 22;
             this.CheckBox6.Text = "凯莉";
             this.CheckBox6.UseVisualStyleBackColor = true;
+            this.CheckBox6.CheckedChanged += new System.EventHandler(this.CheckBox6_CheckedChanged);
             // 
             // CheckBox3
             // 
             this.CheckBox3.AutoSize = true;
-            this.CheckBox3.Location = new System.Drawing.Point(179, 21);
-            this.CheckBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox3.Location = new System.Drawing.Point(194, 21);
+            this.CheckBox3.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox3.Name = "CheckBox3";
             this.CheckBox3.Size = new System.Drawing.Size(44, 19);
             this.CheckBox3.TabIndex = 19;
             this.CheckBox3.Text = "金";
             this.CheckBox3.UseVisualStyleBackColor = true;
+            this.CheckBox3.CheckedChanged += new System.EventHandler(this.CheckBox3_CheckedChanged);
             // 
             // CheckBox5
             // 
             this.CheckBox5.AutoSize = true;
-            this.CheckBox5.Location = new System.Drawing.Point(320, 21);
-            this.CheckBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox5.Location = new System.Drawing.Point(194, 75);
+            this.CheckBox5.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox5.Name = "CheckBox5";
             this.CheckBox5.Size = new System.Drawing.Size(59, 19);
             this.CheckBox5.TabIndex = 21;
             this.CheckBox5.Text = "鬼狐";
             this.CheckBox5.UseVisualStyleBackColor = true;
+            this.CheckBox5.CheckedChanged += new System.EventHandler(this.CheckBox5_CheckedChanged);
             // 
             // CheckBox4
             // 
             this.CheckBox4.AutoSize = true;
-            this.CheckBox4.Location = new System.Drawing.Point(240, 21);
-            this.CheckBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBox4.Location = new System.Drawing.Point(8, 76);
+            this.CheckBox4.Margin = new System.Windows.Forms.Padding(4);
             this.CheckBox4.Name = "CheckBox4";
             this.CheckBox4.Size = new System.Drawing.Size(59, 19);
             this.CheckBox4.TabIndex = 20;
             this.CheckBox4.Text = "格瑞";
             this.CheckBox4.UseVisualStyleBackColor = true;
+            this.CheckBox4.CheckedChanged += new System.EventHandler(this.CheckBox4_CheckedChanged);
             // 
             // Label5
             // 
             this.Label5.AutoSize = true;
-            this.Label5.Location = new System.Drawing.Point(15, 439);
+            this.Label5.Location = new System.Drawing.Point(857, 44);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(270, 15);
@@ -545,33 +570,23 @@
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Location = new System.Drawing.Point(309, 439);
+            this.Label1.Location = new System.Drawing.Point(854, 65);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(294, 15);
+            this.Label1.Size = new System.Drawing.Size(211, 15);
             this.Label1.TabIndex = 48;
-            this.Label1.Text = "(可多选,选项里有未登场人物,请仔细甄别)";
+            this.Label1.Text = "(可多选,选项里有未登场人物)";
             // 
             // Button13
             // 
-            this.Button13.Location = new System.Drawing.Point(765, 442);
-            this.Button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Button13.Location = new System.Drawing.Point(865, 541);
+            this.Button13.Margin = new System.Windows.Forms.Padding(4);
             this.Button13.Name = "Button13";
             this.Button13.Size = new System.Drawing.Size(85, 30);
             this.Button13.TabIndex = 49;
             this.Button13.Text = "确定";
             this.Button13.UseVisualStyleBackColor = true;
             this.Button13.Click += new System.EventHandler(this.Button13_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 455);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(624, 15);
-            this.label2.TabIndex = 50;
-            this.label2.Text = "已知Bug:因能力有限，如果在单击确定后程序无窗口弹出，则您选择的答案结果为部分正确。";
             // 
             // label4
             // 
@@ -592,21 +607,46 @@
             this.Button12.UseVisualStyleBackColor = true;
             this.Button12.Click += new System.EventHandler(this.Button12_Click);
             // 
-            // 关于CBranchToolStripMenuItem
+            // richTextBox2
             // 
-            this.关于CBranchToolStripMenuItem.Name = "关于CBranchToolStripMenuItem";
-            this.关于CBranchToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
-            this.关于CBranchToolStripMenuItem.Text = "关于 C# Branch";
-            this.关于CBranchToolStripMenuItem.Click += new System.EventHandler(this.关于CBranchToolStripMenuItem_Click);
+            this.richTextBox2.Location = new System.Drawing.Point(857, 311);
+            this.richTextBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(270, 222);
+            this.richTextBox2.TabIndex = 53;
+            this.richTextBox2.Text = "下面是您最终认定的凶手，请在确认无误后单击确定提交答案:\n";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(857, 292);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(263, 15);
+            this.label2.TabIndex = 54;
+            this.label2.Text = "您的最终结果报告,若无误请单击确定:";
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(1042, 541);
+            this.button14.Margin = new System.Windows.Forms.Padding(4);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(85, 30);
+            this.button14.TabIndex = 55;
+            this.button14.Text = "清空报告";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(867, 575);
+            this.ClientSize = new System.Drawing.Size(1144, 585);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.Button12);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.Button13);
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.Label5);
@@ -618,8 +658,9 @@
             this.Controls.Add(this.Label3);
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "AOTU 推理游戏-C#Branch V1.0-CoreAlpha V1.5";
+            this.Text = "AOTU 推理游戏 (C#Branch V1.1 CoreAlpha V1.5)";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.GroupBox1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
@@ -677,10 +718,12 @@
         internal System.Windows.Forms.Label Label5;
         internal System.Windows.Forms.Label Label1;
         internal System.Windows.Forms.Button Button13;
-        internal System.Windows.Forms.Label label2;
         internal System.Windows.Forms.Label label4;
         internal System.Windows.Forms.Button Button12;
         private System.Windows.Forms.ToolStripMenuItem 关于CBranchToolStripMenuItem;
+        internal System.Windows.Forms.RichTextBox richTextBox2;
+        internal System.Windows.Forms.Label label2;
+        internal System.Windows.Forms.Button button14;
     }
 }
 

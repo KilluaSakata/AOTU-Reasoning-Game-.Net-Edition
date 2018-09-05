@@ -21,5 +21,5 @@ namespace AOTU_Window_C
                 "因为是初学C#语言，可能在编程上有颇多不熟练之处，望多多指教。\n" , "AOTU 推理游戏 - C#分支", MessageBoxButtons.OK, MessageBoxIcon.Information) == DialogResult.OK)
                 Application.Run(new Form1());
         }
-    }
+    } 
 }
